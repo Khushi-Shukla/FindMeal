@@ -9,6 +9,7 @@ body {
 }
 /*General*/
 h1, h2, h3, h4, h5, h6 {
+	font-size: 22px;
 	font-weight: normal;
 	font-family: 'Oswald', sans-serif;
 }
@@ -157,8 +158,7 @@ div.hbox {
 	background: #fff;
 	padding: 10px 15px;
 }
-.h-body {
-}
+
 .jumbotron {
 	background-color: #E0E0E0;
 }
@@ -303,8 +303,12 @@ footer {
 }
 .member-img {
 	overflow: hidden;
+	display: flex;
+	justify-content: center;
 }
 .member-img img {
+	width: 80%;
+	object-fit: contain;
 	border-radius: 0px; 
 }
 .team-socials {
@@ -321,17 +325,37 @@ footer {
 	font-size: 18px;
 	color: #C7C7C7;
 }
+.social-media2{
+	width: 90%;
+	margin: 10px auto;
+	display: flex;
+	justify-content: space-around;
+	text-align: center;
+}
+a1{
+	margin: 0px 10px;
+}
+.footer{
+	margin-top: 100px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
 .team-socials i:hover {
 	color: #f11d25;
 }
 .team-member h4 {
-	font-size: 19px;
+	font-size: 18px;
+	letter-spacing: 2px;
+	word-spacing: 3px;
 	line-height: 32px;
 	padding: 10px 0 0;
 	text-align: center;
 	margin: 0px;
 }
 .team-member .pos {
+	font-size: 18px;
+	font-weight: bold;
 	display: block;
 	margin: 0;
 	text-align: center;

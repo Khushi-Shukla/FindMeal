@@ -26,6 +26,9 @@ section{
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     border-radius: 19px
 }
+.pos{
+    font-size: 50px;
+}
 .image{
     background-color: #12192c;
     display: flex;
@@ -148,6 +151,8 @@ margin:50px auto
 	margin: 0px;
 }
 .team-member .pos {
+    font-size: 18px;
+    font-weight: bold;
 	display: block;
 	margin: 0;
 	text-align: center;
