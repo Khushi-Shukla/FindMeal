@@ -5,7 +5,7 @@ body {
 	font-family: 'Lato', sans-serif;
 	font-weight: normal;
     color: #6E6E6E;
-    background: url('Background.jpg') top left repeat;
+    /* background: url('../images/bg.jpeg') ; */
 }
 /*General*/
 h1, h2, h3, h4, h5, h6 {
@@ -28,12 +28,14 @@ a:hover, a:focus{
 }
 .navbar-toggle {
 	background-color: rgba(0, 0, 0, 0.89);
+	/* vertical-align: left !important; */
 }
 .navbar-nav>li>a {
+	margin-left: auto;
 	padding-top: 12px;
 	padding-bottom: 12px;
-	font-family: 'Oswald', sans-serif;
-	font-size: 1.5vw;
+	font-family: 'Poppins', sans-serif;
+	font-size: 1.7rem;
 	font-weight: 400 !important;
 }
 blockquote {
@@ -71,14 +73,16 @@ label {
 }
 /* Header */
 #head {
-	/*background: #181015 url( ../images/bg_header.jpg) no-repeat;*/
-	background-size: cover;
+	/* background: url( ../images/bg.jpg) repeat ; */
+	/* background-size: cover; */
 	height: 600px;
 	text-align: center;
 	color: white;
 	font-weight: 300;
 	position: relative; 
 	background-position-x: center;
+    
+
 }
 #head.secondary {
 	height: 100px;
@@ -364,7 +368,7 @@ a1{
 	height: 300px;
 	min-height: 300px;
 	padding-top: 0px;
-	background: #181015 url(../images/bg.jpeg) 0px -270px no-repeat;
+	background: #181015 url(../images/bg.jpeg) 0px -270px repeat;
 	/*background: #f11d25;*/
 	background-size: cover;
 	text-align: left; 
@@ -375,6 +379,12 @@ a1{
     COLOR: #F9E7C2;
 }
 
+.navbar-nav > .active >a {
+    color: #ff5252!important;   
+  }
+  .nav-item > a:hover {
+    color: #ff5252!important;
+  }
 
 
 /* Small devices (tablets, 768px and up) */
@@ -388,8 +398,8 @@ a1{
 
 @media (max-width: 767px) {
 .navbar-collapse ul {
-	text-align: right;
-	margin-right: 0px;
+	text-align: left;
+	margin-right: auto;
 }
 }
 
@@ -403,7 +413,7 @@ height:480px !important;
 	font-size: 13px;
 }
     .navbar-inverse .navbar-nav > li > a, .navbar-inverse .navbar-nav > .open ul > a {
-text-align: right;
+text-align: left;
 }
 
 .footer2 p {

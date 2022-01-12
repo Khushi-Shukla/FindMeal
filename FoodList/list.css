@@ -279,12 +279,26 @@ ul{
     width: 100%;
 }
 
-
+.navbar-nav > .active >a {
+    color: #ff5252!important;   
+  }
+  .nav-item > a:hover {
+    color: #ff5252!important;
+  }
+    /* #ff5252
+} */
 
 
 
 
 /* Media Queries */
+@media (max-width: 770px) {
+    .navbar-nav {
+        text-align: left;
+        margin-right: auto;
+    }
+    }
+
 @media screen and (min-width: 600px){
     .meal-search-box{
         width: 460px;
@@ -434,11 +448,8 @@ body {
 #loading {
     position:relative;
     margin: 0 auto;
-     top: 0;
-    right: 2rem;
-    bottom: 0;
-    width: 75vh;
-    height: 75vh;
+    width: 70vh;
+    height: 70vh;
     overflow: hidden; 
     visibility: hidden; 
 
