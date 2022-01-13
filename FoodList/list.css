@@ -285,10 +285,6 @@ ul{
   .nav-item > a:hover {
     color: #ff5252!important;
   }
-    /* #ff5252
-} */
-
-
 
 
 /* Media Queries */
@@ -443,6 +439,16 @@ body {
 }
 #loading.display {
     visibility: visible;
+}
+
+
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
 }
 /* 
 #loading {
@@ -662,12 +668,3 @@ body {
 } */
 
 
-
-@keyframes spin {
-    from {
-        transform: rotate(0deg);
-    }
-    to {
-        transform: rotate(360deg);
-    }
-}
