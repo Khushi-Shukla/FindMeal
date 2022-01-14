@@ -9,3 +9,5 @@ The general idea of the project is to help out people ease out the complexity of
 3. JavaScript
 4. Bootstrap
 5. FontAwesome
+## API Used
+https://www.themealdb.com/api/json/v1/1/filter.php?i
