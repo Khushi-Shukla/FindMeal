@@ -11,3 +11,5 @@ The general idea of the project is to help out people ease out the complexity of
 5. FontAwesome
 ## API Used
 https://www.themealdb.com/api/json/v1/1/filter.php?i
+## Working in local environment
+After cloning this reppository, go to the command line and write "npm install" or "yarn install" (if you use yarn) and you are ready to go.
